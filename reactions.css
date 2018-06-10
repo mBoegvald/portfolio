@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#shape {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: none;
+    position: relative;
+
+}
+
+html {
+    background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 600px;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+#stop {
+    display: none;
+}
+
+.arrow {
+    background-image: url(pics/arrow-back-01.png);
+    background-size: 100%;
+    width: 5vw;
+    height: 5vw;
+    top: 10vw;
+    left: 10vw;
+}
+
+.header_reaction {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #ccc7b6;
+    margin-left: 20px;
+    width: 100%;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 20px;
+    margin-left: 20px;
+    color: #ccc7b6;
+    font-size: 1.5em;
+
+
+}
+
+button {
+    margin: 20px;
+    width: 70px;
+    height: 30px;
+}
